@@ -1,0 +1,248 @@
+@media only screen and (max-width: 720px){
+    .np {
+        padding-top: 1%;
+    }
+
+    .w,.a,.t,.r {
+        font-size: 20px;
+    }
+
+    #line {
+        margin-top: 15%;
+    }
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fff;
+}
+
+/** Nav **/
+
+.nav {
+    text-align: center;
+    font-family: 'Russo One', sans-serif;
+    background-color: rgba(92,127,92,1.0);
+    border-bottom: solid #000 2px;
+    padding-top: 1%;
+}
+
+li {
+    display: inline-block;
+    padding-left: 7%;
+    padding-right: 7%;
+    font-size: 30px;
+    text-shadow:2px 2px #000;
+}
+
+li > a {
+    color: #e5e500;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #000;
+    text-shadow: 2px 2px #e5e500;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+.contactInfo > li {
+    text-shadow: none;
+    font-family: 'Russo One', sans-serif;
+    font-size: 20px;
+}
+
+.contactInfo > li > a {
+    text-shadow: none;
+    color: #000;
+}
+
+.contactInfo > li > a:hover{
+    text-shadow: none;
+}
+
+/** Header **/
+#header {
+    align-content: center;
+    text-align: center;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 99;
+}
+
+/** Body **/
+.oneH {
+    margin-top: 40%;
+    padding-bottom: 1%;
+    text-align: center;
+    font-family: 'Russo One', sans-serif;
+    text-decoration: underline;
+}
+
+.title3 {
+    font-family: 'Russo One', sans-serif;
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 1%;
+    text-shadow: 2px 2px #000;
+    color: #e5e500;
+}
+
+.three {
+    padding-bottom: 1%;
+    font-family: 'Russo One', sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+
+img {
+    width: 100px;
+    height: 150px;
+    margin-left: 46%;
+}
+
+.twoH {
+    padding-top: 4%;
+    padding-bottom: 2%;
+    text-align: center;
+    font-family: 'Russo One', sans-serif;
+    background-color: rgba(92,127,92,0.5);
+}
+
+.threeH {
+    padding-top: 1%;
+    padding-bottom: 2%;
+    text-align: center;
+    font-family: 'Russo One', sans-serif;
+    color: #000;
+    text-decoration: underline;
+}
+
+.contactL > ul {
+    vertical-align: middle;
+    margin: 0 auto;
+    width: 400px;
+    display: table;
+}
+
+.contactL > li {
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.contactL {
+    background-color: rgba(92,127,92,0.5);
+    height: 75%;
+}
+
+.section1 {
+    height: 100%;
+}
+
+#anchor-welcome {
+    height: 100%;
+    background-image: url("assets/train.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg {
+    background-color: rgba(92,127,92,0.6);
+}
+
+.bg > p {
+    text-align: center;
+    font-family: 'Russo One', sans-serif;
+}
+
+#anchor-about {
+    height: 100%;
+    background-image: url("assets/camera.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section2 {
+    height: 100%;
+    background-color: rgba(229,229,0,0.1);
+}
+
+.section2 > p {
+    padding-left: 2%;
+    padding-right: 2%;
+    font-family: 'Russo One', sans-serif;
+    font-size: 25px;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: center;
+    background-color: rgba(255,255,255,0.4);
+
+}
+
+.section3 {
+    height: 100%;
+    background-image: url("assets/walkingFixed.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section3 > .slide > p {
+    text-align: center;
+    font-family: 'Russo One', sans-serif;
+    font-size: 25px;
+}
+
+.section4 {
+    height: 100%;
+    background-image: url("assets/typewriterFixed.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/** Slides **/
+
+#slide3 {
+    text-align: center;
+    font-size: 25px;
+}
+
+.para {
+    width: 90%;
+    margin-left: 5%;
+    background-color: rgba(255,255,250,0.4);
+    padding-top: 1%;
+}
+
+/** Footer **/
+footer {
+    position: absolute;
+    padding-top: 1%;
+    left: 0;
+    bottom: 0;
+    height: 35px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Russo One', sans-serif;
+    background-color: rgba(92,127,92,1.0);
+    color: #000000;
+    font-size: 20px;
+}
+
